@@ -67,6 +67,6 @@ SAMPLE OUTPUT
   
   The move had been made
   
- #Task 2 - Printing the Board :
+ # Task 2 - Printing the Board :
 
   
