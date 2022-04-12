@@ -16,7 +16,7 @@ public class Main {
             sc.nextLine();
             switch(choice){
                 case 1:
-                    gamePlay();
+                    gamePlay();                                 
                     break;
                 case 2:
                     printBoard();
@@ -58,18 +58,18 @@ public class Main {
 
     public static void setUpBoard() {
 
-        int t=1;
+        int temp=1;
         for(int j=0;j<8;j++) {
-            board[7][j] = j < 3 ? t++ : t--;
+            board[7][j] = j < 3 ? temp++ : temp--;
             if (j == 3) {
-                t++;
+                temp++;
             }
         }
-        t=11;
+        temp=11;
         for(int j=0;j<8;j++){
-            board[0][j]=j<3?t++:t--;
+            board[0][j]=(j<3)?temp++:temp--;
             if(j==3){
-                t++;
+                temp++;
             }
         }
         for(int i=0;i<8;i++){
