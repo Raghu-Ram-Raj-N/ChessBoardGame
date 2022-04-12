@@ -41,32 +41,55 @@ Instead of a position, if the user types
 
 SAMPLE OUTPUT  
   
-  Select the Task:
+    Select the Task:
   
-  1.Game Play
+    1.Game Play
   
-  2.Printing the Board
+    2.Printing the Board
   
-  3.Recording
+    3.Recording
   
-  4.Exit
+    4.Exit
   
-  1
+    1
   
-  White Player's Turn
+    White Player's Turn
   
-  Enter the Position of Coin
+    Enter the Position of Coin
   
-  b2
+    b2
   
-  The Current type of Coin : W_P
+    The Current type of Coin : W_P
   
-  Enter the new Position of Coin
+    Enter the new Position of Coin
   
-  b3
+    b3
   
-  The move had been made
+    The move had been made
   
  # Task 2 - Printing the Board :
 
+    For White Coins
+  
+    W_K    W_Q    W_R   W_B     W_N    W_P 
+    king  queen  rook  bishop  knight  pawn
+
+    For Black coins
+  
+    B_K    B_Q    B_R   B_B     B_N    B_P 
+    king  queen  rook  bishop  knight  pawn
+  
+  
+  Sample Output:
+  
+        a    b    c    d    e    f    g    h 
+    8  B_R  B_N  B_B  B_Q  B_K  B_B  B_N  B_R  
+    7  B_P  B_P  B_P  B_P  B_P  B_P  B_P  B_P  
+    6                                          
+    5                                          
+    4                                          
+    3                                          
+    2  W_P  W_P  W_P  W_P  W_P  W_P  W_P  W_P  
+    1  W_R  W_N  W_B  W_Q  W_K  W_B  W_N  W_R  
+  
   
